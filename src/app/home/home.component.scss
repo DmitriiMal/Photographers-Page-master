@@ -1,3 +1,7 @@
+// //////////////////////// //
+// //////// Header //////// //
+// //////////////////////// //
+
 .header-content {
   display: flex;
 
@@ -32,12 +36,25 @@
   }
 }
 
-carousel-inner {
-  max-height: 40vh;
-  img {
-    max-height: 40vh;
+// //////////////////////// //
+// //////// Swiper //////// //
+// //////////////////////// //
+
+.mySwiper {
+  height: 50vh;
+  .mySlide {
+    position: relative;
+
+    button {
+      position: absolute;
+      bottom: 30px;
+    }
   }
 }
+
+// //////////////////////// //
+// ///// Testimonials ///// //
+// //////////////////////// //
 
 #testimonials {
   .testimonials-grid {
@@ -53,7 +70,6 @@ carousel-inner {
       ul {
         list-style: none;
         margin-top: 1rem;
-        // display: flex;
         align-items: center;
         position: relative;
 
@@ -67,9 +83,6 @@ carousel-inner {
           top: -65px;
           left: -30px;
         }
-      }
-
-      p {
       }
     }
 

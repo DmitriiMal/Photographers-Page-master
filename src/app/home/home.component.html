@@ -1,6 +1,9 @@
 <div class="container">
   <div class="header-content">
-    <h1>Name Name</h1>
+    <div>
+      <h1>Olivia Anderson</h1>
+      <p class="lead text-end">Photographer</p>
+    </div>
     <div>
       <img
         src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?auto=format&fit=crop&q=80&w=2244&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -11,87 +14,40 @@
   </div>
 </div>
 
-<!-- Carousel starts -->
-
-<div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img
-        src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?auto=format&fit=crop&q=80&w=1738&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        class="d-block w-100"
-        alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <!-- <h5>Weddings</h5> -->
-        <button class="btn btn-light btn-sm">Weddings</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img
-        src="https://images.unsplash.com/photo-1678363254909-2717823ede1f?auto=format&fit=crop&q=80&w=2371&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        class="d-block w-100"
-        alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <!-- <h5>Portraits</h5> -->
-        <button class="btn btn-light">Portraits</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img
-        src="https://images.unsplash.com/photo-1474039369477-5e74ff1f0e57?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        class="d-block w-100"
-        alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <!-- <h5>Cars</h5> -->
-        <button class="btn btn-light btn-sm">Cars</button>
-      </div>
-    </div>
-  </div>
-  <button
-    class="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide="prev"
+<!-- Swiper starts -->
+<swiper-container
+  class="mySwiper"
+  navigation="true"
+  space-between="5"
+  loop="true"
+  autoplay-delay="4000"
+  autoplay-pause-on-mouse-enter="true"
+  grab-cursor="true"
+>
+  <swiper-slide class="mySlide"
+    ><img
+      src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?auto=format&fit=crop&q=80&w=1738&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      class="d-block w-100"
+      alt="..."
+    />
+    <button class="btn btn-outline-light">Weddings</button>
+  </swiper-slide>
+  <swiper-slide class="mySlide"
+    ><img
+      src="https://images.unsplash.com/photo-1678363254909-2717823ede1f?auto=format&fit=crop&q=80&w=2371&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      class="d-block w-100"
+      alt="..."
+    /><button class="btn btn-outline-light">Portraits</button></swiper-slide
   >
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide="next"
+  <swiper-slide class="mySlide"
+    ><img
+      src="https://images.unsplash.com/photo-1568742518972-f5f37ac3aab1?auto=format&fit=crop&q=80&w=2670&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      class="d-block w-100"
+      alt="..."
+    /><button class="btn btn-outline-light">Cars</button></swiper-slide
   >
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<!-- Carousel ends -->
+</swiper-container>
+<!-- Swiper ends -->
 
 <!-- Testimonials -->
 <section id="testimonials" class="container my-4">
@@ -112,10 +68,10 @@
           <li class="small">New York</li>
         </ul>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-          laboriosam? Ducimus magni, cumque nobis eum quisquam sequi. Debitis
-          tenetur suscipit amet a qui itaque, dolor alias dignissimos,
-          laudantium nihil voluptatum.
+          Working with Olivia was an absolute delight. Her creativity and
+          attention to detail are unmatched. She made us feel incredibly
+          comfortable during our portrait session, resulting in stunning photos
+          that we'll cherish forever. Highly recommended!
         </p>
       </div>
     </div>
@@ -130,14 +86,14 @@
               alt=""
             />
           </li>
-          <li class="u">Sam smith</li>
-          <li class="small">New York</li>
+          <li class="u">Sophia Müller</li>
+          <li class="small">Berlin</li>
         </ul>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-          laboriosam? Ducimus magni, cumque nobis eum quisquam sequi. Debitis
-          tenetur suscipit amet a qui itaque, dolor alias dignissimos,
-          laudantium nihil voluptatum.
+          Olivia captured our wedding day with sheer brilliance! Every moment
+          was beautifully immortalized through her lens. Her talent and passion
+          truly shine, making our special day unforgettable. Thank you, Olivia,
+          for the extraordinary memories!
         </p>
       </div>
     </div>
@@ -152,48 +108,17 @@
               alt=""
             />
           </li>
-          <li class="u">Sam smith</li>
-          <li class="small">New York</li>
+          <li class="u">Alexander Wagner</li>
+          <li class="small">Vienna</li>
         </ul>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-          laboriosam? Ducimus magni, cumque nobis eum quisquam sequi. Debitis
-          tenetur suscipit amet a qui itaque, dolor alias dignissimos,
-          laudantium nihil voluptatum.
+          Olivia's photography skills are exceptional! She expertly captured the
+          essence of our event in every shot. Her professionalism and friendly
+          demeanor made the entire experience enjoyable. We're thrilled with the
+          photos and grateful for her outstanding work!
         </p>
       </div>
     </div>
     <!-- Test-card ends -->
   </div>
 </section>
-
-<!-- <img
-        src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?auto=format&fit=crop&q=80&w=1738&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        class="d-block w-100"
-        alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Weddings</h5>
-        <button class="btn btn-light btn-sm">Weddings</button> -->
-
-<!-- =============================== -->
-
-<!-- <img
-  src="https://images.unsplash.com/photo-1678363254909-2717823ede1f?auto=format&fit=crop&q=80&w=2371&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  class="d-block w-100"
-  alt="..."
-  />
-  <div class="carousel-caption d-none d-md-block">
-        <h5>Portraits</h5>
-        <button class="btn btn-light">Portraits</button> -->
-
-<!-- =============================== -->
-
-<!-- <img
-src="https://images.unsplash.com/photo-1474039369477-5e74ff1f0e57?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-class="d-block w-100"
-alt="..."
-/>
-<div class="carousel-caption d-none d-md-block">
-<h5>Cars</h5>
-<button class="btn btn-light btn-sm">Cars</button> -->
