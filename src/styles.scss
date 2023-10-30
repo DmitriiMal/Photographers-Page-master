@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+// Variables
+$website-width: 1280px;
+$main-color: salmon;
+$light-color: #f4f4f4;
+$dark-color: #333;
+
+// Set Text Color Fuction
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return $dark-color;
+  } @else {
+    @return $light-color;
+  }
+}
+
+// ///////////////////// //
+// ///// Utilities ///// //
+// ///////////////////// //
+
+.container {
+  max-width: $website-width;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+// Paddind
+
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+
+  &-2 {
+    padding: 2rem 0;
+  }
+
+  &-3 {
+    padding: 3rem 0;
+  }
+
+  &-4 {
+    padding: 4rem 0;
+  }
+}
+
+// Margin
+
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+
+  &-2 {
+    margin: 2rem 0;
+  }
+
+  &-3 {
+    margin: 3rem 0;
+  }
+
+  &-4 {
+    margin: 4rem 0;
+  }
+}
