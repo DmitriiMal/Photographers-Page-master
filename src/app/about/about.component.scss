@@ -6,12 +6,25 @@
          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
          font-size: 48px;
      }
+<<<<<<< HEAD
 a {
     text-decoration: none;
     color: rgba(255, 0, 0, 0.747);
 }
      .topRow {
          background-color: rgba(234, 198, 198, 0.664);
+=======
+
+     a {
+         text-decoration: none;
+        //  color: rgba(255, 0, 0, 0.747);
+        color: black;
+     }
+
+     .topRow {
+        //  background-color: rgba(234, 198, 198, 0.664);
+         background-color: rgba(211, 211, 211, 0.199);
+>>>>>>> 1ffb88756b870807078a119ad7995e94f02a975c
          border-radius: 50px;
 
      }
@@ -33,4 +46,18 @@ a {
          width: 60%;
          background-color: rgba(211, 211, 211, 0.199);
      }
+<<<<<<< HEAD
+=======
+
+     .hr3 {
+         width: 45%;
+         border: 0px solid black;
+     }
+
+     .aboutBolt {
+         font-size: 60px;
+         padding: 5px;
+     }
+
+>>>>>>> 1ffb88756b870807078a119ad7995e94f02a975c
  }
