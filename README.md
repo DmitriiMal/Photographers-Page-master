@@ -1,6 +1,6 @@
 # Portfolio Website for a Potographer
 
-It's also responsive. 
+<!-- ... It's also responsive. -->
 
 # Collaborators
 
