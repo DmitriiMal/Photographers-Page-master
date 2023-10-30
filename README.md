@@ -14,7 +14,7 @@
  ![SASS](https://img.icons8.com/color/48/000000/sass.png)
   ![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png)
   ![Angular](https://img.icons8.com/color/48/000000/angularjs.png)
-
+  ![Swiper](https://img.icons8.com/color/48/000000/swiper.png)
 
 ## Screenshots
 
