@@ -1,20 +1,20 @@
 # Portfolio Website for a Potographer
 
-... It's also responsive. 
+It's also responsive. 
 
 # Collaborators
-[Collaborator Name](Link to Collaborator's Profile)
-[Collaborator Name](Link to Collaborator's Profile)
-[Collaborator Name](Link to Collaborator's Profile)
-[Collaborator Name](Link to Collaborator's Profile)
-[Collaborator Name](Link to Collaborator's Profile)
+
+[Murat](https://github.com/MuratYildirim95)<br>
+[Isabel](https://github.com/isa-stra)<br>
+[Halil](https://github.com/Halil-Tas)<br>
+[Christian](https://github.com/veganchris)<br>
+[Dmitrii](https://github.com/DmitriiMal)
 
 
 ## Was bilt with:
  ![SASS](https://img.icons8.com/color/48/000000/sass.png)
   ![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png)
   ![Angular](https://img.icons8.com/color/48/000000/angularjs.png)
-  ![Swiper](https://img.icons8.com/color/48/000000/swiper.png)
 
 ## Screenshots
 
