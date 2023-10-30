@@ -6,10 +6,12 @@
          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
          font-size: 48px;
      }
-a {
-    text-decoration: none;
-    color: rgba(255, 0, 0, 0.747);
-}
+
+     a {
+         text-decoration: none;
+         color: rgba(255, 0, 0, 0.747);
+     }
+
      .topRow {
          background-color: rgba(234, 198, 198, 0.664);
          border-radius: 50px;
@@ -33,4 +35,15 @@ a {
          width: 60%;
          background-color: rgba(211, 211, 211, 0.199);
      }
+
+     .hr3 {
+         width: 45%;
+         border: 0px solid black;
+     }
+
+     .aboutBolt {
+         font-size: 60px;
+         padding: 5px;
+     }
+
  }
