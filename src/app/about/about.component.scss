@@ -1,0 +1,36 @@
+ .aboutContainer {
+
+     margin: 5% 10%;
+
+     h2 {
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-size: 48px;
+     }
+a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.747);
+}
+     .topRow {
+         background-color: rgba(234, 198, 198, 0.664);
+         border-radius: 50px;
+
+     }
+
+     img {
+         width: 100%;
+         // height: 60vh;
+     }
+
+     .aboutPic1 {
+         background-color: rgba(0, 0, 0, 0.247);
+     }
+
+     .aboutPic2 {
+         background-color: rgba(0, 0, 0, 0.251);
+     }
+
+     .aboutBox {
+         width: 60%;
+         background-color: rgba(211, 211, 211, 0.199);
+     }
+ }
