@@ -23,7 +23,7 @@ const routes: Routes = [
     component: ContactComponent,
   },
   {
-    path: '**', redirectTo "";
+    path: '**', redirectTo: ""
   }
 ];
 
