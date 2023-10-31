@@ -22,9 +22,7 @@ h5{
 }
 
 .divForm{
-    //position: relative;
     width: 100vw;
-    //height: 100vh;
     background-color: lightgray;
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -148,11 +146,6 @@ h5{
     position: relative;
 }
 
-.address{
-    //min-width: 50%;
-}
-
-
 .txtIcon{
     margin-top: 2rem;
     font-weight: bold;
@@ -177,7 +170,6 @@ iframe{
     top: 0;
     height: 100%;
     width: 100%;  
-    //position:absolute;
     
 }
 
@@ -195,30 +187,18 @@ iframe{
 
 
 .divMaps{
-    //height:100%;
     width: 100vw;
     margin: 0;
 }
 
 
 .divContact{
-    //height: 50vh;
-    // margin-top: 0px;
-    // margin-bottom: 0px;
-    //top: 50px;
-    //bottom: 50px;
     width: 100vw;
-    //padding-top: 2rem;
 }
 
 .divContainer{
-    //background-color: lightgray;
-    //width: 100%;
-    //height: 100%;
-    //height: px;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    //height: 90vh;
     width: 100vw;
     margin: 0px;
 }
