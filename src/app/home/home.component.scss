@@ -99,3 +99,25 @@
     }
   }
 }
+
+// //////////////////////// //
+// ///// Media Queries ///// //
+// //////////////////////// //
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column-reverse;
+    gap: 3rem;
+
+    img {
+      margin-top: 4rem;
+    }
+  }
+
+  #testimonials {
+    .testimonials-grid {
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+    }
+  }
+}
