@@ -15,6 +15,6 @@ export const albums = [
         description: "Parteeeey.",
         pictures: [
             {name: "WeirdParty" ,picture:"../assets/category/partys/weirdparty.jpg" , date: "01.01.2003"},
-            {name: "Jelly&Bean" ,picture:"../assets/category/partys/Jelly&Bean.jpg" , date: "02.01.2004"}
+            {name: "Jelly&Bean" ,picture:"../assets/category/partys/weirdparty.jpg" , date: "02.01.2004"}
         ]
     }];
