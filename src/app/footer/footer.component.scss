@@ -163,5 +163,14 @@
 }
 
 h6{
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;;
+}
+
+.footer-links li a{
+  text-decoration: none;
+}
+
+.footer-links li a:hover{
+  color: rgb(165, 165, 165);
+  transition: .2s;
 }
