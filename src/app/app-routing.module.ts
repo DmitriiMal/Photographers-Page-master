@@ -15,7 +15,7 @@ const routes: Routes = [
     component: AboutComponent,
   },
   {
-    path: 'gallery',
+    path: 'gallery/:id',
     component: GalleryComponent,
   },
   {

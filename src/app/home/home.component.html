@@ -24,28 +24,10 @@
   autoplay-pause-on-mouse-enter="true"
   grab-cursor="true"
 >
-  <swiper-slide class="mySlide"
-    ><img
-      src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?auto=format&fit=crop&q=80&w=1738&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      class="testImg d-block w-100"
-      alt="..."
-    />
-    <button class="btn btn-outline-light">Weddings</button>
+  <swiper-slide *ngFor="let i of albums; index as id" class="mySlide">
+    <img src="{{i.image}}" alt="..."/>
+    <button routerLink="/gallery/{{id}}" class="btn btn-outline-light">{{i.name}}</button>
   </swiper-slide>
-  <swiper-slide class="mySlide"
-    ><img
-      src="https://images.unsplash.com/photo-1678363254909-2717823ede1f?auto=format&fit=crop&q=80&w=2371&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      class="testImg d-block w-100"
-      alt="..."
-    /><button class="btn btn-outline-light">Portraits</button></swiper-slide
-  >
-  <swiper-slide class="mySlide"
-    ><img
-      src="https://images.unsplash.com/photo-1568742518972-f5f37ac3aab1?auto=format&fit=crop&q=80&w=2670&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      class="testImg d-block w-100"
-      alt="..."
-    /><button class="btn btn-outline-light">Cars</button></swiper-slide
-  >
 </swiper-container>
 <!-- Swiper ends -->
 
