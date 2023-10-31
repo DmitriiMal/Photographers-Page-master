@@ -15,16 +15,22 @@ const routes: Routes = [
     component: AboutComponent,
   },
   {
+    path: 'gallery',
+    component: GalleryComponent,
+  },
+  {
     path: 'gallery/:id',
     component: GalleryComponent,
   },
+
   {
     path: 'contact',
     component: ContactComponent,
   },
   {
-    path: '**', redirectTo: ""
-  }
+    path: '**',
+    redirectTo: '',
+  },
 ];
 
 @NgModule({
