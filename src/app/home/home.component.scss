@@ -24,7 +24,7 @@
     .round {
       width: 170px;
       height: 170px;
-      background-color: $main-color;
+      background-color: salmon;
       object-fit: cover;
       border-radius: 50%;
       position: absolute;
@@ -50,6 +50,10 @@
     button {
       position: absolute;
       bottom: 30px;
+    }
+
+    img {
+      object-fit: cover;
     }
   }
 }
