@@ -66,6 +66,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0.5rem;
+    margin-bottom: 2rem;
 
     .test-card {
       border: 1px solid #f4f4f4;
@@ -91,12 +92,12 @@
       }
     }
 
-    img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 50%;
-    }
+    // img {
+    //   width: 200px;
+    //   height: 200px;
+    //   object-fit: cover;
+    //   border-radius: 50%;
+    // }
   }
 }
 
