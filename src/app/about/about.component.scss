@@ -1,49 +1,60 @@
 .aboutContainer {
-  margin: 5% 10%;
+    margin: 5% 10%;
 
-  h2 {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-size: 48px;
-  }
+    h2 {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        font-size: 48px;
+    }
 
-  a {
-    text-decoration: none;
-    //  color: rgba(255, 0, 0, 0.747);
-    color: black;
-  }
+    a {
+        text-decoration: none;
+        //  color: rgba(255, 0, 0, 0.747);
+        color: black;
+    }
 
-  .topRow {
-    //  background-color: rgba(234, 198, 198, 0.664);
-    background-color: rgba(211, 211, 211, 0.199);
-    border-radius: 50px;
-  }
+    .topRow {
+        //  background-color: rgba(234, 198, 198, 0.664);
+        background-color: rgba(211, 211, 211, 0.199);
+        border-radius: 50px;
+    }
 
-  img {
-    width: 100%;
-    // height: 60vh;
-  }
+    img {
+        width: 100%;
+        // height: 60vh;
+    }
 
-  .aboutPic1 {
-    background-color: rgba(0, 0, 0, 0.247);
-  }
+    .aboutPic1 {
+        background-color: rgba(0, 0, 0, 0.247);
+    }
 
-  .aboutPic2 {
-    background-color: rgba(0, 0, 0, 0.251);
-  }
+    .aboutPic2 {
+        background-color: rgba(0, 0, 0, 0.251);
+    }
 
-  .aboutBox {
-    width: 60%;
-    background-color: rgba(211, 211, 211, 0.199);
-  }
+    @media screen and (max-width: 668px) {
+        .aboutBox {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
 
-  .hr3 {
-    width: 45%;
-    border: 0px solid black;
-  }
+    @media screen and (min-width: 669px) {
+        .aboutBox {
+            width: 70%;
+            padding: 2%;
+            background-color: rgba(211, 211, 211, 0.199);
+        }
+    }
 
-  .aboutBolt {
-    font-size: 60px;
-    padding: 5px;
-  }
+    .hr3 {
+        width: 45%;
+        border: 0px solid black;
+    }
+
+    .aboutBolt {
+        font-size: 60px;
+        padding: 5px;
+    }
 }
