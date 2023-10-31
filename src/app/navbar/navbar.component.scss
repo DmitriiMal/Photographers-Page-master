@@ -4,7 +4,7 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    // font-family: ;
+    font-family: 'Bebas Neue', sans-serif;
     padding: 0 5%;
     height: 100px;
     // background: transparent;
@@ -19,6 +19,7 @@ nav .logo{
     align-items: center;
     font-size: 24px;
     // color: ;
+    letter-spacing: 3px;
 }
 
 nav .links{
@@ -44,6 +45,7 @@ nav .links li{
     color: black;
     text-decoration: none;
     // Test
+    letter-spacing: 4px;
     position: relative;
 }
 
