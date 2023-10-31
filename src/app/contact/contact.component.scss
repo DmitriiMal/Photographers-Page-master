@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
 
@@ -203,7 +203,10 @@ iframe{
 
 .conatiner_main{
   width: 100vw;
+  
   margin: 0px;
+  //overflow: hidden;
+  overflow-x: hidden;
 }
 
 
