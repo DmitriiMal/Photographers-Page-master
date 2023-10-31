@@ -2,14 +2,14 @@
   <h1>Gallery</h1>
 </header>
 <div class="container">
-  <h1 class="text-center my-4">Weddings</h1>
+  <h1 class="text-center my-4">{{album.name}}</h1>
   <div
     class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 mb-5"
   >
     <!-- Card starts -->
-    <div>
+    <div *ngFor="let j of album.pictures">
       <img
-        src="https://images.unsplash.com/photo-1568742518972-f5f37ac3aab1?auto=format&fit=crop&q=80&w=2670&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="{{j.picture}}"
         class="card-img-top rounded"
         alt="..."
       />
