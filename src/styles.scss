@@ -1,8 +1,8 @@
 // Variables
-$website-width: 1280px;
-$main-color: salmon;
-$light-color: #f4f4f4;
-$dark-color: #333;
+// $website-width: 1280px;
+// $main-color: salmon;
+// $light-color: #f4f4f4;
+// $dark-color: #333;
 
 // Set Text Color Fuction
 @function set-text-color($color) {
@@ -17,9 +17,9 @@ $dark-color: #333;
 // ///// Utilities ///// //
 // ///////////////////// //
 
-.container {
-  max-width: $website-width;
-  padding: 0 1.5rem;
-  margin: auto;
-  overflow: hidden;
-}
+// .container {
+//   max-width: $website-width;
+//   padding: 0 1.5rem;
+//   margin: auto;
+//   overflow: hidden;
+// }
