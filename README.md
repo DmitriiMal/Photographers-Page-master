@@ -4,11 +4,12 @@
 
 # Collaborators
 
-[Murat](https://github.com/MuratYildirim95)<br>
-[Isabel](https://github.com/isa-stra)<br>
-[Halil](https://github.com/Halil-Tas)<br>
-[Christian](https://github.com/veganchris)<br>
-[Dmitrii](https://github.com/DmitriiMal)
+[Murat Yildirim](https://github.com/MuratYildirim95)<br>
+[Isabel Strauch](https://github.com/isa-stra)<br>
+[Halil Tas](https://github.com/Halil-Tas)<br>
+[Christian Runda](https://github.com/veganchris)<br>
+[Dmitrii Malyshkin](https://github.com/DmitriiMal)
+
 
 
 ## Was bilt with:
