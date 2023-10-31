@@ -11,16 +11,29 @@ import { ActivatedRoute, Params } from '@angular/router';
 export class GalleryComponent{
   albums : ialbum[] = albums
   album : ialbum = {} as ialbum;
-  id: number =0;
+  id: number =999;
+  check: boolean = true;
 
   constructor(private route: ActivatedRoute){}
 
   ngOnInit(): void {
     this.route.params.subscribe((param:Params) => {
+      console.log(this.check);
+      console.log(+param["id"]);
+      if(isNaN(param["id"])){
+        this.id = 25;
+        this.check = false;
+        console.log(this.check);
+       
+      }
+      else{
+        console.log(this.check);
+        console.log(+param["id"]);
+        this.id = +param["id"];
+        this.album = albums[this.id];
+
+      }
       
-      this.id = +param["id"];
-      this.album = albums[this.id];
-  
     })
   }
 }
