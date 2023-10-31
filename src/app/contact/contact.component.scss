@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+// @media screen and (max-width: 576px){
+
+//     // iframe{
+//     //   height: 50%;
+//     // };
+//     // .divContainer{
+//     //   height: 700px;
+//     // };
+
+//     .divContact{
+//       flex-direction: row;
+//     }
+
+    
+    // .divContact{
+    //   min-height: 70vh;
+    // }
+// }
+
+.container{
+  width: 100vw;
+
+}
+
+h1{
+    text-align: center;
+    width: 100vw;
+    background-color: lightgrey;
+    color: rgb(112, 112, 112);
+    padding-top: 3rem;
+
+}
+
+h5{
+    color: rgb(112, 112, 112);
+}
+
+.divForm{
+    //position: relative;
+    width: 100vw;
+    //height: 100vh;
+    background-color: lightgray;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.form {
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    //max-width: 500px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+
+    //position: absolute;
+    // left: 50%;
+    // transform: translate(-50%);
+  }
+  
+  // .flex {
+  //   display: flex;
+  //   gap: 6px;
+  // }
+
+  #fName{
+    width: 50%;
+  }
+  #lName{
+    width: 50%;
+  }
+  
+  .form .field {
+    position: relative;
+  }
+  
+  .form .field .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 5px;
+  }
+  
+  .form .field .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form .field .input:focus + span,.form .field .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form .field .input:valid + span {
+    color: green;
+  }
+  
+  .inputMsg {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 5px;
+  }
+  
+  .form .field .inputMsg + span {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  
+  .form .field .inputMsg:focus + span,.form .field .inputMsg:valid + span {
+    top: 50px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form .field .inputMsg:valid + span {
+    color: green;
+  }
+  
+  #bttnSubmit {
+    background-color: transparent;
+    border: 2px solid #cacaca;
+    border-radius: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    margin: 0;
+    padding: 8px 30px;
+    transition: all 0.3s ease-in-out;
+    font-size: 13px;
+    text-align: center;
+  }
+    
+  #bttnSubmit .text {
+    font-size: 1.125em;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: #818181;
+  }
+  
+    
+  #bttnSubmit:hover {
+    background: #cacaca;
+  }
+  
+  #bttnSubmit:hover::before {
+    width: 1.5rem;
+    background: white;
+  }
+  
+  #bttnSubmit:hover .text {
+    color: white;
+  }
+  
+.address {
+    position: relative;
+}
+
+.address{
+    //min-width: 50%;
+}
+
+
+.txtIcon{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.divPin{
+    margin: 0px 2rem 0px 2rem;
+    color: rgb(112, 112, 112);
+}
+
+.contactTxt{
+    text-align: left;
+    margin-top: 2rem;
+}
+
+iframe{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;  
+    //position:absolute;
+    
+}
+
+.icons{
+    border-radius: 50%;
+    border: 1px solid rgb(112, 112, 112);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    background-color: darkgray;
+    color: white;
+}
+
+
+.divMaps{
+    //height:100%;
+    width: 100vw;
+    margin: 0;
+}
+
+
+.divContact{
+    //height: 50vh;
+    // margin-top: 0px;
+    // margin-bottom: 0px;
+    //top: 50px;
+    //bottom: 50px;
+    width: 100vw;
+    //padding-top: 2rem;
+}
+
+.divContainer{
+    //background-color: lightgray;
+    //width: 100%;
+    //height: 100%;
+    //height: px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    //height: 90vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+.test{
+  width: 100vw;
+  margin: 0px;
+}
+
+
+
+
+

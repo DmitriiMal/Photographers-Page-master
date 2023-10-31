@@ -1,1 +1,76 @@
-<p>contact works!</p>
+<div class="container test">
+    <!-- <div class="container"> -->
+    <h1>Contact</h1>
+
+    <div class="divForm d-flex justify-content-center">
+        <form class="form">
+            <h5>Leave me a message:</h5>
+            <div class="d-flex gap-2">
+
+                <div class="field" id="fName">
+                    <input required="" placeholder="" type="text" class="input" name="fName">
+                    <span>first name</span>
+                </div>
+
+                <div class="field" id="lName">
+                    <input required="" placeholder="" type="text" class="input" name="lName">
+                    <span>last name</span>
+                </div>
+            </div>
+
+            <div class="field">
+                <input required="" placeholder="" type="email" class="input" name="eMail">
+                <span>email</span>
+            </div>
+
+            <div class="field">
+                <input required="" type="tel" placeholder="" class="input" name="tel">
+                <span>contact number</span>
+            </div>
+            <div class="field">
+                <textarea required rows="3" placeholder="" class="inputMsg" name="msg"></textarea>
+                <span>message</span>
+            </div>
+
+
+            <button id="bttnSubmit" href="#">
+                <!-- <input type="submit" name="submit" id="submit" placeholder=""> -->
+                <span class="text">submit</span>
+            </button>
+            <!-- <button class="fancy" href="#">
+          <span class="top-key"></span>
+          <span class="text">submit</span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </button> -->
+        </form>
+        <!-- </div> -->
+
+
+    </div>
+    <hr>
+
+    <div class="text-center divContainer d-flex justify-content-center align-items-center">
+        <div class="row divContact gap-5">
+            <div class="col-sm divMaps">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.5279211070247!2d16.356841076423844!3d48.19644654706087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476da8192fde39d7%3A0xe543f0731e2b5529!2sCodeFactory!5e0!3m2!1sde!2sat!4v1698699384559!5m2!1sde!2sat"
+                    style="box-shadow: 0 0 5px rgb(112, 112, 112);" style="border:0; width: 100%;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-sm address d-flex justify-content-center align-items-center">
+                <div class="divPin">
+                    <i class="bi bi-geo-alt icons"></i>
+                    <p class="txtIcon">Address</p>
+                    <p class="contactTxt">Max Musterfrau<br>Musterstraße 100<br>1160 Wien</p>
+                </div>
+                <div class="divPin">
+                    <i class="bi bi-telephone icons"></i>
+                    <p class="txtIcon">Call</p>
+                    <p class="contactTxt">+43 (1) 123 45 67<br>+43 650 765 43 21<br><br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
