@@ -1,12 +1,7 @@
 .aboutContainer {
-    @media screen and (max-width: 768px) {
-        margin: 20% 10% 5% 10%;
-        
-    }
-    @media screen and (min-width: 769px) {
-        margin: 10% 10% 5% 10%;
-        
-    }
+
+        margin: 110px 10% 5% 10%;
+      
 
     h2 {
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -44,18 +39,15 @@
             width: 100%;
             margin: 2% 0;
             padding: 2% 0;
-            margin-top: 150px;
         }
     }
 
     @media screen and (min-width: 769px) {
         .aboutBox {
             width: 70%;
-            // margin: 2% 0;
-            // padding: 2%;
+            margin: 2% 0;
+            padding: 2%;
             background-color: rgba(211, 211, 211, 0.199);
-            margin-top: 150px;
-
         }
     }
 
