@@ -24,7 +24,7 @@
     .round {
       width: 170px;
       height: 170px;
-      background-color: salmon;
+      background-color: $main-color;
       object-fit: cover;
       border-radius: 50%;
       position: absolute;
@@ -44,6 +44,8 @@
   height: 50vh;
   .mySlide {
     position: relative;
+    display: flex;
+    justify-content: center;
 
     button {
       position: absolute;
