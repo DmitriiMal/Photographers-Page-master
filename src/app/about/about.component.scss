@@ -1,18 +1,21 @@
 .aboutContainer {
 
-        margin: 110px 10% 5% 10%;
-        align-items: center;
-      
+    margin: 110px 10% 5% 10%;
+    align-items: center;
 
-        h2 {
-            font-family: "Bebas Neue", "Lucida Sans Unicode", "Lucida Grande",
-                "Lucida Sans", Arial, sans-serif;
-            font-size: 48px;
-        }    
-        h3, h4 {
-            font-family: "Bebas Neue", "Lucida Sans Unicode", "Lucida Grande",
-                "Lucida Sans", Arial, sans-serif;
-        }
+    h2 {
+        letter-spacing: 3px;
+        font-family: "Bebas Neue", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        font-size: 48px;
+    }
+
+    h3,
+    h4 {
+        letter-spacing: 3px;
+        font-family: "Bebas Neue", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+    }
 
     a {
         text-decoration: none;
