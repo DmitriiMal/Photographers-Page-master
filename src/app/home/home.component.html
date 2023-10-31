@@ -24,11 +24,24 @@
   autoplay-pause-on-mouse-enter="true"
   grab-cursor="true"
 >
-  <swiper-slide *ngFor="let i of albums; index as id" class="mySlide">
+  <swiper-slide class="mySlide">
+    <img src="{{ albums[0].image }}" alt="..." />
+    <button class="btn btn-outline-light">
+      {{ albums[0].name }}
+    </button>
+  </swiper-slide>
+  <swiper-slide class="mySlide">
+    <img src="{{ albums[1].image }}" alt="..." />
+    <button class="btn btn-outline-light">
+      {{ albums[1].name }}
+    </button>
+  </swiper-slide>
+</swiper-container>
+<!-- <swiper-slide *ngFor="let i of albums; index as id" class="mySlide">
     <img src="{{i.image}}" alt="..."/>
     <button routerLink="/gallery/{{id}}" class="btn btn-outline-light">{{i.name}}</button>
   </swiper-slide>
-</swiper-container>
+</swiper-container> -->
 <!-- Swiper ends -->
 
 <!-- Testimonials -->
