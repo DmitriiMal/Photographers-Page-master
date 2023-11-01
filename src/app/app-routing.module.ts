@@ -4,6 +4,9 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
+import { WeddingsPageComponent } from './weddings-page/weddings-page.component';
+import { RetroCarsPageComponent } from './retro-cars-page/retro-cars-page.component';
+import { PortraitsPageComponent } from './portraits-page/portraits-page.component';
 
 const routes: Routes = [
   {
@@ -19,8 +22,16 @@ const routes: Routes = [
     component: GalleryComponent,
   },
   {
-    path: 'gallery/:id',
-    component: GalleryComponent,
+    path: 'weddings',
+    component: WeddingsPageComponent,
+  },
+  {
+    path: 'portraits',
+    component: PortraitsPageComponent,
+  },
+  {
+    path: 'cars',
+    component: RetroCarsPageComponent,
   },
 
   {

@@ -1,36 +1,116 @@
+export const weddings = [
+  {
+    id: 0,
+    image: '../assets/category/weddings/wed_0.jpg',
+  },
+  {
+    id: 1,
+    image: '../assets/category/weddings/wed_1.jpg',
+  },
+  {
+    id: 2,
+    image: '../assets/category/weddings/wed_2.jpg',
+  },
+  {
+    id: 3,
+    image: '../assets/category/weddings/wed_3.jpg',
+  },
+  {
+    id: 4,
+    image: '../assets/category/weddings/wed_4.jpg',
+  },
+  {
+    id: 5,
+    image: '../assets/category/weddings/wed_5.jpg',
+  },
+  {
+    id: 6,
+    image: '../assets/category/weddings/wed_6.jpg',
+  },
+  {
+    id: 7,
+    image: '../assets/category/weddings/wed_7.jpg',
+  },
+  {
+    id: 8,
+    image: '../assets/category/weddings/wed_8.jpg',
+  },
+];
 
+export const portraits = [
+  {
+    id: 0,
+    image: '../assets/category/portraits/portrait_0.jpg',
+  },
+  {
+    id: 1,
+    image: '../assets/category/portraits/portrait_1.jpg',
+  },
+  {
+    id: 2,
+    image: '../assets/category/portraits/portrait_2.jpg',
+  },
+  {
+    id: 3,
+    image: '../assets/category/portraits/portrait_3.jpg',
+  },
+  {
+    id: 4,
+    image: '../assets/category/portraits/portrait_4.jpg',
+  },
+  {
+    id: 5,
+    image: '../assets/category/portraits/portrait_5.jpg',
+  },
+  {
+    id: 6,
+    image: '../assets/category/portraits/portrait_6.jpg',
+  },
+  {
+    id: 7,
+    image: '../assets/category/portraits/portrait_7.jpg',
+  },
+  {
+    id: 8,
+    image: '../assets/category/portraits/portrait_8.jpg',
+  },
+];
 
-export const albums = [
-    {
-        name: "Weddings",
-        image: "../assets/category/wedding/wedding.jpg",
-        description: "Delicious spaghetti with Bolognese sauce.",
-        pictures: [
-            {name: "Jean&John" ,picture:"../assets/category/wedding/Jean&John.jpg" , date: "01.01.2001"},
-            {name: "Jelly&Bean" ,picture:"../assets/category/wedding/Jelly&Bean.jpg" , date: "02.01.2002"}
-        ]
-    },{
-        name: "Partys",
-        image: "../assets/category/partys/partys.jpg",
-        description: "Parteeeey.",
-        pictures: [
-            {name: "WeirdParty" ,picture:"../assets/category/partys/weirdparty.jpg" , date: "01.01.2003"},
-            {name: "Jelly&Bean" ,picture:"../assets/category/partys/weirdparty.jpg" , date: "02.01.2004"}
-        ]
-    },{
-        name: "Coffe",
-        image: "../assets/category/partys/partys.jpg",
-        description: "Parteeeey.",
-        pictures: [
-            {name: "WeirdParty" ,picture:"../assets/category/partys/weirdparty.jpg" , date: "01.01.2003"},
-            {name: "Jelly&Bean" ,picture:"../assets/category/partys/weirdparty.jpg" , date: "02.01.2004"}
-        ]
-    },{
-        name: "Dinner",
-        image: "../assets/category/wedding/wedding.jpg",
-        description: "Delicious spaghetti with Bolognese sauce.",
-        pictures: [
-            {name: "Jean&John" ,picture:"../assets/category/wedding/Jean&John.jpg" , date: "01.01.2001"},
-            {name: "Jelly&Bean" ,picture:"../assets/category/wedding/Jelly&Bean.jpg" , date: "02.01.2002"}
-        ]
-    }];
+export const retro_cars = [
+  {
+    id: 0,
+    image: '../assets/category/retro_cars/car_0.jpg',
+  },
+  {
+    id: 1,
+    image: '../assets/category/retro_cars/car_1.jpg',
+  },
+  {
+    id: 2,
+    image: '../assets/category/retro_cars/car_2.jpg',
+  },
+  {
+    id: 3,
+    image: '../assets/category/retro_cars/car_3.jpg',
+  },
+  {
+    id: 4,
+    image: '../assets/category/retro_cars/car_4.jpg',
+  },
+  {
+    id: 5,
+    image: '../assets/category/retro_cars/car_5.jpg',
+  },
+  {
+    id: 6,
+    image: '../assets/category/retro_cars/car_6.jpg',
+  },
+  {
+    id: 7,
+    image: '../assets/category/retro_cars/car_7.jpg',
+  },
+  {
+    id: 8,
+    image: '../assets/category/retro_cars/car_8.jpg',
+  },
+];

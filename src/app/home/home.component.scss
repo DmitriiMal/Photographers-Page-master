@@ -44,14 +44,16 @@
   .mySlide {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 
     button {
       position: absolute;
       bottom: 30px;
+      left: 100px;
     }
 
     img {
+      width: 100%;
       object-fit: cover;
     }
   }

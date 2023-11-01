@@ -1,0 +1,31 @@
+<header class="hero">
+  <h1>Portraits</h1>
+</header>
+<div class="container">
+  <!-- <h1 class="text-center my-4">Any Heading</h1> -->
+  <div
+    class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 mb-5 pt-5"
+  >
+    <!-- Card starts -->
+    <div *ngFor="let photo of portraits" class="my-4 px-3">
+      <img src="{{ photo.image }}" class="card-img-top rounded" alt="..." />
+    </div>
+    <!-- Card ends -->
+  </div>
+</div>
+<!-- Swiper starts -->
+<section class="swiper d-none d-sm-block">
+  <swiper-container
+    id="mySwiper"
+    navigation="true"
+    loop="true"
+    autoplay-delay="4000"
+    autoplay-pause-on-mouse-enter="true"
+    grab-cursor="true"
+  >
+    <swiper-slide *ngFor="let photo of portraits" class="mySlide">
+      <img src="{{ photo.image }}" alt="..." />
+    </swiper-slide>
+  </swiper-container>
+</section>
+<!-- Swiper ends -->

@@ -1,30 +1,45 @@
-<div *ngIf="check; else smtelse">
-
-ghvghvfghf
-
-
-
-</div>
-
-<ng-template #smtelse>else</ng-template>
-
-
-
 <header class="hero">
   <h1>Gallery</h1>
 </header>
 <div class="container">
-  <h1 class="text-center my-4">{{album.name}}</h1>
+  <!-- <h1 class="text-center my-4">Any Heading</h1> -->
   <div
-    class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 mb-5"
-  > 
+    class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 mb-5 pt-5"
+  >
     <!-- Card starts -->
-    <div *ngFor="let j of album.pictures">
-      <img
-        src="{{j.picture}}"
-        class="card-img-top rounded"
-        alt="..."
-      />
+    <div class="my-4 px-3">
+      <h1>Weddings</h1>
+      <a routerLink="/weddings">
+        <img
+          src="../../assets/category/weddings/wed_0.jpg"
+          class="card-img-top rounded"
+          alt="..."
+        />
+      </a>
+    </div>
+    <!-- Card ends -->
+    <!-- Card starts -->
+    <div class="my-4 px-3">
+      <h1>Portraits</h1>
+      <a routerLink="/portraits">
+        <img
+          src="../../assets/category/portraits/portrait_8.jpg"
+          class="card-img-top rounded"
+          alt="..."
+        />
+      </a>
+    </div>
+    <!-- Card ends -->
+    <!-- Card starts -->
+    <div class="my-4 px-3">
+      <h1>Retro Cars</h1>
+      <a routerLink="/cars">
+        <img
+          src="../../assets/category/retro_cars/car_1.jpg"
+          class="card-img-top rounded"
+          alt="..."
+        />
+      </a>
     </div>
     <!-- Card ends -->
   </div>
