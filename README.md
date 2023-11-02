@@ -5,7 +5,6 @@
 # Collaborators
 
 [Halil Tas](https://github.com/Halil-Tas)<br>
-[Murat Yildirim](https://github.com/MuratYildirim95)<br>
 [Isabel Strauch](https://github.com/isa-stra)<br>
 [Christian Runda](https://github.com/veganchris)<br>
 [Dmitrii Malyshkin](https://github.com/DmitriiMal)
