@@ -29,4 +29,4 @@
  <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/Screenshot_3.png"  />
  <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/Screenshot_4.png"  />
  <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/Screenshot_5.png"  />
- <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/Screenshot_5.png"  />
+ <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/Screenshot_6.png"  />
