@@ -93,7 +93,7 @@ nav .icon-burger .line {
   background-color: black;
   margin: 5px;
   border-radius: 3px;
-  transition: all 0.8s ease-in-out;
+  transition: all 0.45s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -135,5 +135,6 @@ nav .icon-burger .line {
   }
   nav :checked ~ .icon-burger .line:nth-child(2) {
     opacity: 0;
+    transition: 0.13s;
   }
 }
