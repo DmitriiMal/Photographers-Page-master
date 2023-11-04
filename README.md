@@ -11,7 +11,7 @@
 
 
 
-## Was bilt with:
+## Was built with:
  ![SASS](https://img.icons8.com/color/48/000000/sass.png)
   ![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png)
   ![Angular](https://img.icons8.com/color/48/000000/angularjs.png)
