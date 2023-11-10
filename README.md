@@ -1,4 +1,4 @@
-# Portfolio Website for a Potographer
+# Portfolio Website for a Photographer
 
 <!-- ... It's also responsive. -->
 
