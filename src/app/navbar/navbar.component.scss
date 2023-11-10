@@ -1,4 +1,5 @@
 nav {
+  // backdrop-filter: blur(5px);
   position: fixed;
   z-index: 10;
   left: 0;
@@ -8,8 +9,7 @@ nav {
   padding: 0 5%;
   height: 100px;
   // background: transparent;
-  background-color: rgba(255, 255, 255, 0.685);
-  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 nav .logo {
@@ -114,7 +114,9 @@ nav .icon-burger .line {
     width: auto;
     height: auto;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.685);
+    background-color: rgba(255, 255, 255, 0.8);
+    // backdrop-filter: blur(5px);
+
     justify-content: flex-start;
     overflow: hidden;
     transition: all 0.8s ease-in-out;
