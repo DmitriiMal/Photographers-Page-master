@@ -14,6 +14,7 @@ import { register } from 'swiper/element/bundle';
 import { WeddingsPageComponent } from './weddings-page/weddings-page.component';
 import { PortraitsPageComponent } from './portraits-page/portraits-page.component';
 import { RetroCarsPageComponent } from './retro-cars-page/retro-cars-page.component';
+import { LightboxModule } from 'ngx-lightbox';
 // register Swiper custom elements
 register();
 @NgModule({
@@ -29,7 +30,7 @@ register();
     PortraitsPageComponent,
     RetroCarsPageComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, LightboxModule],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
