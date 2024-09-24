@@ -26,7 +26,7 @@
 
 
 
-  <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/screenshot_mobile.png"  />
+  <img  src="src/assets/screenshos/screenshot_mobile.png"  />
   <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/Screenshot_1.png"  />
  <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/Screenshot_2.png"  />
  <img  src="https://github.com/DmitriiMal/Photographers-Page-master/blob/master/src/assets/screenshos/Screenshot_3.png"  />
