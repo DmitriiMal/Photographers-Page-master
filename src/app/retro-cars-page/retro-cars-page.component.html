@@ -8,12 +8,7 @@
   >
     <!-- Card starts -->
     <div *ngFor="let photo of retro_cars; let i = index" class="my-4 px-3">
-      <img
-        src="{{ photo.image }}"
-        (click)="open(i)"
-        class="card-img-top rounded"
-        alt="..."
-      />
+      <img src="{{ photo.image }}" class="card-img-top rounded" alt="..." />
     </div>
     <!-- Card ends -->
   </div>
